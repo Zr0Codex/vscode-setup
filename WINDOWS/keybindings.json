@@ -54,5 +54,18 @@
     "key": "shift+n",
     "command": "workbench.action.newWindow",
     "when": "!explorerViewletFocus"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "filesExplorer && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "workbench.action.toggleZenMode"
   }
 ]
